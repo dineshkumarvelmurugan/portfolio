@@ -1,0 +1,58 @@
+/* src/components/Contact.css */
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  padding: 20px;
+  background-color: #f9f9f914;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6a0dad;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b00e0;
+}
